@@ -18,6 +18,6 @@ jobs:
 
       - name: Perform install, build and start commands
         run: |
-            npm install
-            tsc
-            npm run start --if-present
+            npm install #Instal project
+            tsc #Compile to JavaScript
+            npm run start --if-present #Start the project
