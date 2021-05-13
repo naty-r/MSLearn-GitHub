@@ -20,4 +20,4 @@ jobs:
         run: |
             npm install #Instal project
             tsc #Compile to JavaScript
-            npm run start --if-present #Start the project
+            npm run start -- #Start the project
